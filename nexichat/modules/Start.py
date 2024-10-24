@@ -158,7 +158,7 @@ async def welcomejej(client, message: Message):
         logging.info(f"Error: {e}")
 
 
-@nexichat.on_cmd(["start", "aistart"])
+@nexichat.on_cmd(["rio", "yor"])
 async def start(_, m: Message):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
